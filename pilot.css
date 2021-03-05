@@ -5,6 +5,8 @@
 body {
 	margin:0;
 	font-family: helvetica;
+	position: relative;
+	
 }
 
 nav {
@@ -24,6 +26,7 @@ nav {
 .nav-links{
 	display:flex;
 	align-self:flex-end;
+	align-items:center;
 	
 }
 
@@ -42,6 +45,7 @@ nav {
 	background-color:transparent;
 	border:transparent;
 }
+
 .nav-links .outlined {
 	display:flex;
 	border:black 1px ;
@@ -67,12 +71,19 @@ section {
 
 	
 .slideWords {
-	color:white;
-	margin:0;
+	margin:auto;
 	display:flex;
 	align-items:center;
 	flex-direction:column;
-	 background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/409269/banner-flowers.jpg') top left/cover no-repeat;
+	background: url(pilotslide.png);
+	color:white;
+	padding:30px 0px 120px 0px;
+	background-size:100%;
+	height:60%;
+
+	
+  
+}
 	
 h2 {
 	font-size:60px;	
@@ -86,7 +97,8 @@ p {
 .slideButton {
 	padding:10px;
 	background-color:transparent;
-	border: 2px solid #555555;
+	border: 2px solid white;
+	color:white;
 }
 
 .slideButton:hover {
@@ -95,12 +107,52 @@ p {
 }
 	
 .slideBOX{
-	display:flex;
+	display:flex;	
 	justify-content:space-around;
-	margin: 50px 100px 0px 100px;
+
+
+}
+.slidebox button {
+
+	align-flex:flex-start;
+	width:25%;
+	position:relative;
+	padding:20px 0px 20px 10px;
 
 }
 
 h3 {
-	font-size:2rem;
+	font-size:30px;
+	text-align:left;
+	margin:0;
+	color:white;
+
 }
+.slidebox p {
+	text-align:left;
+	font-size:15px;
+	color:white;
+	width:100%;
+	height:100%;
+	
+}
+
+.firstHeading {
+	border-color:transparent;
+	background: url(firstHeading.png);
+	background-size:100%;
+}
+
+.secondHeading {
+	border-color:transparent;
+	background: url(secondHeading.png);
+	background-size:100%;
+}
+
+.thirdHeading {
+	border-color:transparent;
+	background: url(thirdHeading.png);
+	background-size:100%;
+}
+
+
