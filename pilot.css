@@ -1,0 +1,106 @@
+*{
+	box-sizing: border-box;
+}
+
+body {
+	margin:0;
+	font-family: helvetica;
+}
+
+nav {
+	display:flex;
+	justify-content:space-between;
+	padding:20px;
+	background-color:#DCDCDC;
+	color:#989898;
+	
+}
+.number{
+	display:flex;
+	align-items:center;
+
+}
+
+.nav-links{
+	display:flex;
+	align-self:flex-end;
+	
+}
+
+.nav-links li {
+	list-style-type:none;
+	padding:10px;
+}
+.nav-links input {
+	background-color:transparent;
+	border-color:transparent;
+	
+}
+
+.nav-links button {
+	padding:10px;
+	background-color:transparent;
+	border:transparent;
+}
+.nav-links .outlined {
+	display:flex;
+	border:black 1px ;
+}
+ 
+section {
+	display:flex;
+	justify-content:space-between;
+	padding:20px;
+}
+
+
+
+.lower {
+	background-color:transparent;
+	padding:10px;
+	border-color:transparent;
+}
+
+.lower:hover {
+	border: 2px solid #555555;
+}
+
+	
+.slideWords {
+	color:white;
+	margin:0;
+	display:flex;
+	align-items:center;
+	flex-direction:column;
+	 background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/409269/banner-flowers.jpg') top left/cover no-repeat;
+	
+h2 {
+	font-size:60px;	
+	margin:0;
+}
+	
+p {
+	font-size:2rem;
+}
+
+.slideButton {
+	padding:10px;
+	background-color:transparent;
+	border: 2px solid #555555;
+}
+
+.slideButton:hover {
+	background-color:blue;
+	border: 2px solid blue;
+}
+	
+.slideBOX{
+	display:flex;
+	justify-content:space-around;
+	margin: 50px 100px 0px 100px;
+
+}
+
+h3 {
+	font-size:2rem;
+}
